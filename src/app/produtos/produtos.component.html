@@ -1,1 +1,18 @@
-<p>produtos works!</p>
+<table class="table table-bordered border-dark">
+  <thead class="table-dark ">
+    <tr class="table-active">
+      <th scope="col">#</th>
+      <th scope="col">Nome</th>
+      <th scope="col">Valor</th>
+      <th scope="col">Em Estoque</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let produtos of produto">
+      <th scope="row">{{produtos.id}}</th>
+      <td>{{produtos.nome}}</td>
+      <td>{{produtos.valor}}</td>
+      <td>{{produtos.estoque}}</td>
+    </tr>
+  </tbody>
+</table>
