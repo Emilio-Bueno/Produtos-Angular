@@ -1,9 +1,9 @@
 {
   "produtos" : [
-      {"id" : 1, "nome" : "Picanha", "valor" : 67.99, "estoque" : 50},
-      {"id" : 2, "nome" : "Maminha", "valor" : 38.99, "estoque" : 40},
-      {"id" : 3, "nome" : "Alcatra", "valor" : 48.99, "estoque" : 30},
-      {"id" : 4, "nome" : "Acém", "valor" : 33.99, "estoque" : 20},
-      {"id" : 5, "nome" : "Contra Filé", "valor" : 38.99, "estoque" : 20}
+      {"id" : 1, "nome" : "Picanha", "valor" : 67.99, "estoque" : 50, "validade" : "15/05"},
+      {"id" : 2, "nome" : "Maminha", "valor" : 38.99, "estoque" : 40, "validade" : "18/05"},
+      {"id" : 3, "nome" : "Alcatra", "valor" : 48.99, "estoque" : 30,"validade" : "19/05"},
+      {"id" : 4, "nome" : "Acém", "valor" : 33.99, "estoque" : 20,"validade" : "16/05"},
+      {"id" : 5, "nome" : "Contra Filé", "valor" : 38.99, "estoque" : 20,"validade" : "21/05"}
   ]
 }

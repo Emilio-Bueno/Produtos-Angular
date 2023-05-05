@@ -3,4 +3,5 @@ export interface Produtos {
   nome : string;
   valor : number;
   estoque : number;
+  validade : string;
 }
